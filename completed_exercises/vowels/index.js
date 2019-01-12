@@ -9,9 +9,7 @@
 
 //regular expression. this is better
 function vowels(str) {
-  const vowels = str.match(/[aeiou]/gi)
-  // g means don't stop after found the first match,
-  //i  is a modifier (modifies the search to be case-insensitive(not care about lower or upper case)).
+  const vowels = str.match(/[aeiou]/gi) // g means don't stop after found the first match, i  is a modifier (modifies the search to be case-insensitive(not care about lower or upper case)).
   return vowels ? vowels.length : 0
 }
 
